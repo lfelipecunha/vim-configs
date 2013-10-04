@@ -1,3 +1,5 @@
+"Added simple comment
+
 "enble syntax
 syntax on
 "enable lines numbers
