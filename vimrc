@@ -75,3 +75,8 @@ vnoremap < <gv
 vnoremap > >gv
 vmap <TAB> >
 vmap <S-TAB> <
+
+"Map to use xclip to copy to clipboard when it's not possible. OBS: Need install xclip
+"vmap "+y y<CR> :call system('echo '.shellescape(@").' \| xclip -f -sel clip')<CR>
+"map "+p :r!xclip -o -sel clip<CR>
+
